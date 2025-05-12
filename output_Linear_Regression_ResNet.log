@@ -1,0 +1,122 @@
+nohup: ignoring input
+wandb: Currently logged in as: rfeliu (rfeliu-iwr) to https://api.wandb.ai. Use `wandb login --relogin` to force relogin
+wandb: Tracking run with wandb version 0.19.11
+wandb: Run data is saved locally in /export/home/rfeliu/sbi_model_comparison/other/wandb/run-20250512_115920-tg9rd3wa
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run run_01
+wandb: ⭐️ View project at https://wandb.ai/rfeliu-iwr/cnn-multigpu-resnet
+wandb: 🚀 View run at https://wandb.ai/rfeliu-iwr/cnn-multigpu-resnet/runs/tg9rd3wa
+/export/home/rfeliu/sbi_model_comparison/.venv/lib/python3.12/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/export/home/rfeliu/sbi_model_comparison/.venv/lib/python3.12/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet18_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet18_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+images.shape=torch.Size([3601, 256, 256]), labels.shape=torch.Size([3601])
+Epoch 1, Loss: 3956.4539
+Epoch 2, Loss: 2288.6269
+Epoch 3, Loss: 2145.5762
+Epoch 4, Loss: 2056.3555
+Epoch 5, Loss: 1987.3061
+Epoch 6, Loss: 1927.0638
+Epoch 7, Loss: 1861.3067
+Epoch 8, Loss: 1772.1544
+Epoch 9, Loss: 1760.2583
+Epoch 10, Loss: 1741.1430
+Epoch 11, Loss: 1709.2204
+Epoch 12, Loss: 1660.4685
+Epoch 13, Loss: 1647.4714
+Epoch 14, Loss: 1613.1194
+Epoch 15, Loss: 1619.4577
+Epoch 16, Loss: 1583.5060
+Epoch 17, Loss: 1581.2584
+Epoch 18, Loss: 1561.8874
+Epoch 19, Loss: 1543.0008
+Epoch 20, Loss: 1552.5349
+Epoch 21, Loss: 1501.9975
+Epoch 22, Loss: 1490.6105
+Epoch 23, Loss: 1492.6018
+Epoch 24, Loss: 1499.0132
+Epoch 25, Loss: 1481.4009
+Epoch 26, Loss: 1459.6533
+Epoch 27, Loss: 1460.0818
+Epoch 28, Loss: 1445.4174
+Epoch 29, Loss: 1451.5281
+Epoch 30, Loss: 1423.2799
+Epoch 31, Loss: 1424.4601
+Epoch 32, Loss: 1407.8853
+Epoch 33, Loss: 1433.5750
+Epoch 34, Loss: 1386.8890
+Epoch 35, Loss: 1396.7003
+Epoch 36, Loss: 1411.1167
+Epoch 37, Loss: 1408.0927
+Epoch 38, Loss: 1405.1816
+Epoch 39, Loss: 1375.6025
+Epoch 40, Loss: 1393.1034
+Epoch 41, Loss: 1376.5817
+Epoch 42, Loss: 1388.5301
+Epoch 43, Loss: 1376.5516
+Epoch 44, Loss: 1359.1015
+Epoch 45, Loss: 1371.2819
+Epoch 46, Loss: 1362.0087
+Epoch 47, Loss: 1350.8072
+Epoch 48, Loss: 1373.5640
+Epoch 49, Loss: 1364.8920
+Epoch 50, Loss: 1353.4216
+Epoch 51, Loss: 1358.0820
+Epoch 52, Loss: 1357.7124
+Epoch 53, Loss: 1339.1246
+Epoch 54, Loss: 1333.6895
+Epoch 55, Loss: 1342.2662
+Epoch 56, Loss: 1329.4666
+Epoch 57, Loss: 1340.2859
+Epoch 58, Loss: 1321.0888
+Epoch 59, Loss: 1340.5327
+Epoch 60, Loss: 1320.2572
+Epoch 61, Loss: 1303.3037
+Epoch 62, Loss: 1305.1813
+Epoch 63, Loss: 1301.3653
+Epoch 64, Loss: 1316.5813
+Epoch 65, Loss: 1320.3317
+Epoch 66, Loss: 1297.0366
+Epoch 67, Loss: 1298.0120
+Epoch 68, Loss: 1308.7255
+Epoch 69, Loss: 1294.5608
+Epoch 70, Loss: 1291.9545
+Epoch 71, Loss: 1297.2321
+Epoch 72, Loss: 1303.9555
+Epoch 73, Loss: 1289.8946
+Epoch 74, Loss: 1284.6675
+Epoch 75, Loss: 1276.7873
+Epoch 76, Loss: 1269.9651
+Epoch 77, Loss: 1282.9477
+Epoch 78, Loss: 1278.8277
+Epoch 79, Loss: 1295.1241
+Epoch 80, Loss: 1267.4649
+Epoch 81, Loss: 1259.8051
+Epoch 82, Loss: 1260.0972
+Epoch 83, Loss: 1253.8968
+Epoch 84, Loss: 1243.8806
+Epoch 85, Loss: 1260.6779
+Epoch 86, Loss: 1258.2807
+Epoch 87, Loss: 1267.4459
+Epoch 88, Loss: 1267.1275
+Epoch 89, Loss: 1247.3044
+Epoch 90, Loss: 1251.1093
+Epoch 91, Loss: 1247.8501
+Epoch 92, Loss: 1243.1503
+Epoch 93, Loss: 1244.1654
+Epoch 94, Loss: 1248.5084
+Epoch 95, Loss: 1231.0312
+Epoch 96, Loss: 1240.9340
+Epoch 97, Loss: 1239.9931
+Epoch 98, Loss: 1251.3817
+Epoch 99, Loss: 1230.8920
+Epoch 100, Loss: 1219.5416
+Temps d'entrenament: 14484.83 segons
+MAE: 14.33°, Desviació estàndar: 14.52°
+MAE: 14.33°, IC 95%: [0.44°, 49.80°]
+Mediana: 10.43°
+Percentils (25%-75%): 4.86° – 19.14°
+Màxim error: 235.63°
+[1;34mwandb[0m: 
+[1;34mwandb[0m: 🚀 View run [33mrun_01[0m at: [34mhttps://wandb.ai/rfeliu-iwr/cnn-multigpu-resnet/runs/tg9rd3wa[0m
+[1;34mwandb[0m: Find logs at: [1;35mwandb/run-20250512_115920-tg9rd3wa/logs[0m
