@@ -1,0 +1,46 @@
+nohup: ignoring input
+wandb: Currently logged in as: rfeliu (rfeliu-iwr) to https://api.wandb.ai. Use `wandb login --relogin` to force relogin
+wandb: Tracking run with wandb version 0.19.11
+wandb: Run data is saved locally in /export/home/rfeliu/sbi_model_comparison/other/wandb/run-20250512_112442-wobw7p6r
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run run_01
+wandb: ⭐️ View project at https://wandb.ai/rfeliu-iwr/cnn-multigpu-circular
+wandb: 🚀 View run at https://wandb.ai/rfeliu-iwr/cnn-multigpu-circular/runs/wobw7p6r
+images.shape=torch.Size([3601, 256, 256]), labels.shape=torch.Size([3601])
+Epoch 10, Loss: 0.0005
+Epoch 20, Loss: 0.0003
+Epoch 30, Loss: 0.0002
+Epoch 40, Loss: 0.0002
+Epoch 50, Loss: 0.0001
+Epoch 60, Loss: 0.0003
+Epoch 70, Loss: 0.0001
+Epoch 80, Loss: 0.0001
+Epoch 90, Loss: 0.0001
+Epoch 100, Loss: 0.0001
+Temps d'entrenament: 12399.71 segons
+MAE: 0.46°, Desviació estàndar: 0.45°
+MAE: 0.46°, IC 95%: [0.02°, 1.44°]
+Mediana: 0.36°
+Percentils (25%-75%): 0.17° – 0.63°
+Màxim error: 11.13°
+Traceback (most recent call last):
+  File "/export/home/rfeliu/sbi_model_comparison/other/Circular_Regression.py", line 358, in <module>
+    plt.hist(errors, bins=50, color='skyblue', edgecolor='black')
+  File "/export/home/rfeliu/sbi_model_comparison/.venv/lib/python3.12/site-packages/matplotlib/_api/deprecation.py", line 453, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/export/home/rfeliu/sbi_model_comparison/.venv/lib/python3.12/site-packages/matplotlib/pyplot.py", line 3467, in hist
+    return gca().hist(
+           ^^^^^^^^^^^
+  File "/export/home/rfeliu/sbi_model_comparison/.venv/lib/python3.12/site-packages/matplotlib/_api/deprecation.py", line 453, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/export/home/rfeliu/sbi_model_comparison/.venv/lib/python3.12/site-packages/matplotlib/__init__.py", line 1521, in inner
+    return func(
+           ^^^^^
+  File "/export/home/rfeliu/sbi_model_comparison/.venv/lib/python3.12/site-packages/matplotlib/axes/_axes.py", line 7080, in hist
+    raise ValueError(f"The 'color' keyword argument must have one "
+ValueError: The 'color' keyword argument must have one color per dataset, but 2 datasets and 1 colors were provided
+[1;34mwandb[0m: 
+[1;34mwandb[0m: 🚀 View run [33mrun_01[0m at: [34mhttps://wandb.ai/rfeliu-iwr/cnn-multigpu-circular/runs/wobw7p6r[0m
+[1;34mwandb[0m: Find logs at: [1;35mwandb/run-20250512_112442-wobw7p6r/logs[0m
